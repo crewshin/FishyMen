@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EB7B7771B5EF78400DFFAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7761B5EF78400DFFAE4 /* main.m */; };
+		7EB7B77A1B5EF78400DFFAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7791B5EF78400DFFAE4 /* AppDelegate.m */; };
+		7EB7B77D1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B77B1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld */; };
+		7EB7B7801B5EF78400DFFAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B77F1B5EF78400DFFAE4 /* ViewController.m */; };
+		7EB7B7831B5EF78400DFFAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB7B7811B5EF78400DFFAE4 /* Main.storyboard */; };
+		7EB7B7851B5EF78400DFFAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */; };
+		7EB7B7881B5EF78400DFFAE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB7B7861B5EF78400DFFAE4 /* LaunchScreen.xib */; };
+		7EB7B7941B5EF78500DFFAE4 /* FishyMenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7931B5EF78500DFFAE4 /* FishyMenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EB7B78E1B5EF78500DFFAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EB7B7691B5EF78400DFFAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB7B7701B5EF78400DFFAE4;
+			remoteInfo = FishyMen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EB7B7711B5EF78400DFFAE4 /* FishyMen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishyMen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB7B7751B5EF78400DFFAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB7B7761B5EF78400DFFAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EB7B7781B5EF78400DFFAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EB7B7791B5EF78400DFFAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EB7B77C1B5EF78400DFFAE4 /* FishyMen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishyMen.xcdatamodel; sourceTree = "<group>"; };
+		7EB7B77E1B5EF78400DFFAE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EB7B77F1B5EF78400DFFAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EB7B7821B5EF78400DFFAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EB7B7871B5EF78400DFFAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7EB7B78D1B5EF78500DFFAE4 /* FishyMenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishyMenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB7B7921B5EF78500DFFAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB7B7931B5EF78500DFFAE4 /* FishyMenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishyMenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EB7B76E1B5EF78400DFFAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB7B78A1B5EF78500DFFAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EB7B7681B5EF78400DFFAE4 = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7731B5EF78400DFFAE4 /* FishyMen */,
+				7EB7B7901B5EF78500DFFAE4 /* FishyMenTests */,
+				7EB7B7721B5EF78400DFFAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB7B7721B5EF78400DFFAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7711B5EF78400DFFAE4 /* FishyMen.app */,
+				7EB7B78D1B5EF78500DFFAE4 /* FishyMenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EB7B7731B5EF78400DFFAE4 /* FishyMen */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7781B5EF78400DFFAE4 /* AppDelegate.h */,
+				7EB7B7791B5EF78400DFFAE4 /* AppDelegate.m */,
+				7EB7B77E1B5EF78400DFFAE4 /* ViewController.h */,
+				7EB7B77F1B5EF78400DFFAE4 /* ViewController.m */,
+				7EB7B7811B5EF78400DFFAE4 /* Main.storyboard */,
+				7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */,
+				7EB7B7861B5EF78400DFFAE4 /* LaunchScreen.xib */,
+				7EB7B77B1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld */,
+				7EB7B7741B5EF78400DFFAE4 /* Supporting Files */,
+			);
+			path = FishyMen;
+			sourceTree = "<group>";
+		};
+		7EB7B7741B5EF78400DFFAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7751B5EF78400DFFAE4 /* Info.plist */,
+				7EB7B7761B5EF78400DFFAE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EB7B7901B5EF78500DFFAE4 /* FishyMenTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7931B5EF78500DFFAE4 /* FishyMenTests.m */,
+				7EB7B7911B5EF78500DFFAE4 /* Supporting Files */,
+			);
+			path = FishyMenTests;
+			sourceTree = "<group>";
+		};
+		7EB7B7911B5EF78500DFFAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7921B5EF78500DFFAE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EB7B7701B5EF78400DFFAE4 /* FishyMen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB7B7971B5EF78500DFFAE4 /* Build configuration list for PBXNativeTarget "FishyMen" */;
+			buildPhases = (
+				7EB7B76D1B5EF78400DFFAE4 /* Sources */,
+				7EB7B76E1B5EF78400DFFAE4 /* Frameworks */,
+				7EB7B76F1B5EF78400DFFAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishyMen;
+			productName = FishyMen;
+			productReference = 7EB7B7711B5EF78400DFFAE4 /* FishyMen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EB7B78C1B5EF78500DFFAE4 /* FishyMenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EB7B79A1B5EF78500DFFAE4 /* Build configuration list for PBXNativeTarget "FishyMenTests" */;
+			buildPhases = (
+				7EB7B7891B5EF78500DFFAE4 /* Sources */,
+				7EB7B78A1B5EF78500DFFAE4 /* Frameworks */,
+				7EB7B78B1B5EF78500DFFAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EB7B78F1B5EF78500DFFAE4 /* PBXTargetDependency */,
+			);
+			name = FishyMenTests;
+			productName = FishyMenTests;
+			productReference = 7EB7B78D1B5EF78500DFFAE4 /* FishyMenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EB7B7691B5EF78400DFFAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Dagger Dev";
+				TargetAttributes = {
+					7EB7B7701B5EF78400DFFAE4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7EB7B78C1B5EF78500DFFAE4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7EB7B7701B5EF78400DFFAE4;
+					};
+				};
+			};
+			buildConfigurationList = 7EB7B76C1B5EF78400DFFAE4 /* Build configuration list for PBXProject "FishyMen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EB7B7681B5EF78400DFFAE4;
+			productRefGroup = 7EB7B7721B5EF78400DFFAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EB7B7701B5EF78400DFFAE4 /* FishyMen */,
+				7EB7B78C1B5EF78500DFFAE4 /* FishyMenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EB7B76F1B5EF78400DFFAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB7B7831B5EF78400DFFAE4 /* Main.storyboard in Resources */,
+				7EB7B7881B5EF78400DFFAE4 /* LaunchScreen.xib in Resources */,
+				7EB7B7851B5EF78400DFFAE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB7B78B1B5EF78500DFFAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EB7B76D1B5EF78400DFFAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB7B77A1B5EF78400DFFAE4 /* AppDelegate.m in Sources */,
+				7EB7B7771B5EF78400DFFAE4 /* main.m in Sources */,
+				7EB7B7801B5EF78400DFFAE4 /* ViewController.m in Sources */,
+				7EB7B77D1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EB7B7891B5EF78500DFFAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB7B7941B5EF78500DFFAE4 /* FishyMenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EB7B78F1B5EF78500DFFAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB7B7701B5EF78400DFFAE4 /* FishyMen */;
+			targetProxy = 7EB7B78E1B5EF78500DFFAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EB7B7811B5EF78400DFFAE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB7B7821B5EF78400DFFAE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EB7B7861B5EF78400DFFAE4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EB7B7871B5EF78400DFFAE4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EB7B7951B5EF78500DFFAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EB7B7961B5EF78500DFFAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EB7B7981B5EF78500DFFAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FishyMen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EB7B7991B5EF78500DFFAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FishyMen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EB7B79B1B5EF78500DFFAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishyMenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishyMen.app/FishyMen";
+			};
+			name = Debug;
+		};
+		7EB7B79C1B5EF78500DFFAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishyMenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishyMen.app/FishyMen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EB7B76C1B5EF78400DFFAE4 /* Build configuration list for PBXProject "FishyMen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB7B7951B5EF78500DFFAE4 /* Debug */,
+				7EB7B7961B5EF78500DFFAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EB7B7971B5EF78500DFFAE4 /* Build configuration list for PBXNativeTarget "FishyMen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB7B7981B5EF78500DFFAE4 /* Debug */,
+				7EB7B7991B5EF78500DFFAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EB7B79A1B5EF78500DFFAE4 /* Build configuration list for PBXNativeTarget "FishyMenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB7B79B1B5EF78500DFFAE4 /* Debug */,
+				7EB7B79C1B5EF78500DFFAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EB7B77B1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EB7B77C1B5EF78400DFFAE4 /* FishyMen.xcdatamodel */,
+			);
+			currentVersion = 7EB7B77C1B5EF78400DFFAE4 /* FishyMen.xcdatamodel */;
+			path = FishyMen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EB7B7691B5EF78400DFFAE4 /* Project object */;
+}
