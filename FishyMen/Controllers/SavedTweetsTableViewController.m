@@ -43,7 +43,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
     if (_tweets.count == 0) {
-        [[[UIAlertView alloc] initWithTitle:nil message:@"There are zero saved tweets" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+        if (![[NSUserDefaults standardUserDefaults] boolForKey:@"zeroTweetsMessageViewed"]) {
+            [[[UIAlertView alloc] initWithTitle:nil message:@"There are zero saved tweets" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+            [[NSUserDefaults standardUserDefaults] setBool:true forKey:@"zeroTweetsMessageViewed"];
+        }
+        
     }
     
     return _tweets.count;
