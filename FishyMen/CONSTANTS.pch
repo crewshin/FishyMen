@@ -1,0 +1,25 @@
+//
+//  CONSTANTS.pch
+//  FishyMen
+//
+//  Created by Gene Crucean on 7/21/15.
+//  Copyright (c) 2015 Dagger Dev. All rights reserved.
+//
+
+#ifndef FishyMen_CONSTANTS_pch
+#define FishyMen_CONSTANTS_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define ENDPOINT_TWITTER_TWEETS @"https://api.twitter.com/1.1/search/tweets.json"
+
+
+#define NOTI_TWITTER_QUERY_SUCCESSFUL @"twitterQuerySuccessful"
+#define NOTI_TWITTER_QUERY_FAILED @"twitterQueryFailed"
+
+
+
+
+
+#endif

@@ -10,11 +10,17 @@
 		7EB7B7771B5EF78400DFFAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7761B5EF78400DFFAE4 /* main.m */; };
 		7EB7B77A1B5EF78400DFFAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7791B5EF78400DFFAE4 /* AppDelegate.m */; };
 		7EB7B77D1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B77B1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld */; };
-		7EB7B7801B5EF78400DFFAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B77F1B5EF78400DFFAE4 /* ViewController.m */; };
 		7EB7B7831B5EF78400DFFAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB7B7811B5EF78400DFFAE4 /* Main.storyboard */; };
 		7EB7B7851B5EF78400DFFAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */; };
 		7EB7B7881B5EF78400DFFAE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB7B7861B5EF78400DFFAE4 /* LaunchScreen.xib */; };
 		7EB7B7941B5EF78500DFFAE4 /* FishyMenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7931B5EF78500DFFAE4 /* FishyMenTests.m */; };
+		7EB7B79F1B5EF9F500DFFAE4 /* TweetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B79E1B5EF9F500DFFAE4 /* TweetsTableViewController.m */; };
+		7EB7B7AC1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7AB1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.m */; };
+		7EB7B7AE1B5EFACE00DFFAE4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB7B7AD1B5EFACE00DFFAE4 /* Social.framework */; };
+		7EB7B7B01B5EFAD700DFFAE4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB7B7AF1B5EFAD700DFFAE4 /* Accounts.framework */; };
+		7EB7B7B61B5F08B200DFFAE4 /* TwitterSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB7B7B51B5F08B200DFFAE4 /* TwitterSearchManager.m */; };
+		7ECA9A4A1B6012FA00D783AE /* Tweets.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA9A491B6012FA00D783AE /* Tweets.m */; };
+		8FC4F7163B273188DFEBAB32 /* Pods_FishyMen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988D0AC6BB3FFFDBF5F8C04D /* Pods_FishyMen.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +40,26 @@
 		7EB7B7781B5EF78400DFFAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EB7B7791B5EF78400DFFAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7EB7B77C1B5EF78400DFFAE4 /* FishyMen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishyMen.xcdatamodel; sourceTree = "<group>"; };
-		7EB7B77E1B5EF78400DFFAE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7EB7B77F1B5EF78400DFFAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7EB7B7821B5EF78400DFFAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7EB7B7871B5EF78400DFFAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7EB7B78D1B5EF78500DFFAE4 /* FishyMenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishyMenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB7B7921B5EF78500DFFAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EB7B7931B5EF78500DFFAE4 /* FishyMenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishyMenTests.m; sourceTree = "<group>"; };
+		7EB7B79D1B5EF9F500DFFAE4 /* TweetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TweetsTableViewController.h; path = Controllers/TweetsTableViewController.h; sourceTree = "<group>"; };
+		7EB7B79E1B5EF9F500DFFAE4 /* TweetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TweetsTableViewController.m; path = Controllers/TweetsTableViewController.m; sourceTree = "<group>"; };
+		7EB7B7AA1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SavedTweetsTableViewController.h; path = Controllers/SavedTweetsTableViewController.h; sourceTree = "<group>"; };
+		7EB7B7AB1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SavedTweetsTableViewController.m; path = Controllers/SavedTweetsTableViewController.m; sourceTree = "<group>"; };
+		7EB7B7AD1B5EFACE00DFFAE4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7EB7B7AF1B5EFAD700DFFAE4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7EB7B7B41B5F08B200DFFAE4 /* TwitterSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterSearchManager.h; path = Classes/TwitterSearchManager.h; sourceTree = "<group>"; };
+		7EB7B7B51B5F08B200DFFAE4 /* TwitterSearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterSearchManager.m; path = Classes/TwitterSearchManager.m; sourceTree = "<group>"; };
+		7ECA9A471B5F1C1000D783AE /* CONSTANTS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.pch; sourceTree = "<group>"; };
+		7ECA9A481B6012FA00D783AE /* Tweets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tweets.h; path = Models/Tweets.h; sourceTree = "<group>"; };
+		7ECA9A491B6012FA00D783AE /* Tweets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tweets.m; path = Models/Tweets.m; sourceTree = "<group>"; };
+		988D0AC6BB3FFFDBF5F8C04D /* Pods_FishyMen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishyMen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C9E1A995F9CD477A4584A1 /* Pods-FishyMen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishyMen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishyMen/Pods-FishyMen.debug.xcconfig"; sourceTree = "<group>"; };
+		F1FA8FB2973A3BF39CD82098 /* Pods-FishyMen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishyMen.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishyMen/Pods-FishyMen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB7B7B01B5EFAD700DFFAE4 /* Accounts.framework in Frameworks */,
+				7EB7B7AE1B5EFACE00DFFAE4 /* Social.framework in Frameworks */,
+				8FC4F7163B273188DFEBAB32 /* Pods_FishyMen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		588F43B0C32C76DD3F007D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7AF1B5EFAD700DFFAE4 /* Accounts.framework */,
+				7EB7B7AD1B5EFACE00DFFAE4 /* Social.framework */,
+				988D0AC6BB3FFFDBF5F8C04D /* Pods_FishyMen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7EB7B7681B5EF78400DFFAE4 = {
 			isa = PBXGroup;
 			children = (
 				7EB7B7731B5EF78400DFFAE4 /* FishyMen */,
 				7EB7B7901B5EF78500DFFAE4 /* FishyMenTests */,
 				7EB7B7721B5EF78400DFFAE4 /* Products */,
+				C405F4E747705FAFB7A1B19C /* Pods */,
+				588F43B0C32C76DD3F007D23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +116,15 @@
 		7EB7B7731B5EF78400DFFAE4 /* FishyMen */ = {
 			isa = PBXGroup;
 			children = (
+				7ECA9A471B5F1C1000D783AE /* CONSTANTS.pch */,
 				7EB7B7781B5EF78400DFFAE4 /* AppDelegate.h */,
 				7EB7B7791B5EF78400DFFAE4 /* AppDelegate.m */,
-				7EB7B77E1B5EF78400DFFAE4 /* ViewController.h */,
-				7EB7B77F1B5EF78400DFFAE4 /* ViewController.m */,
-				7EB7B7811B5EF78400DFFAE4 /* Main.storyboard */,
-				7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */,
-				7EB7B7861B5EF78400DFFAE4 /* LaunchScreen.xib */,
 				7EB7B77B1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld */,
+				7EB7B7B31B5EFEA600DFFAE4 /* Views */,
+				7EB7B7A01B5EF9F900DFFAE4 /* Controllers */,
+				7EB7B7B11B5EFE9200DFFAE4 /* Classes */,
+				7ECA9A4B1B6012FD00D783AE /* Models */,
+				7EB7B7841B5EF78400DFFAE4 /* Images.xcassets */,
 				7EB7B7741B5EF78400DFFAE4 /* Supporting Files */,
 			);
 			path = FishyMen;
@@ -122,6 +156,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7EB7B7A01B5EF9F900DFFAE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7A11B5EFA0200DFFAE4 /* Tweets */,
+				7EB7B7A21B5EFA0700DFFAE4 /* Saved Tweets */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7EB7B7A11B5EFA0200DFFAE4 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B79D1B5EF9F500DFFAE4 /* TweetsTableViewController.h */,
+				7EB7B79E1B5EF9F500DFFAE4 /* TweetsTableViewController.m */,
+			);
+			name = Tweets;
+			sourceTree = "<group>";
+		};
+		7EB7B7A21B5EFA0700DFFAE4 /* Saved Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7AA1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.h */,
+				7EB7B7AB1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.m */,
+			);
+			name = "Saved Tweets";
+			sourceTree = "<group>";
+		};
+		7EB7B7B11B5EFE9200DFFAE4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7B41B5F08B200DFFAE4 /* TwitterSearchManager.h */,
+				7EB7B7B51B5F08B200DFFAE4 /* TwitterSearchManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7EB7B7B31B5EFEA600DFFAE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EB7B7811B5EF78400DFFAE4 /* Main.storyboard */,
+				7EB7B7861B5EF78400DFFAE4 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7ECA9A4B1B6012FD00D783AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA9A481B6012FA00D783AE /* Tweets.h */,
+				7ECA9A491B6012FA00D783AE /* Tweets.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C405F4E747705FAFB7A1B19C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8C9E1A995F9CD477A4584A1 /* Pods-FishyMen.debug.xcconfig */,
+				F1FA8FB2973A3BF39CD82098 /* Pods-FishyMen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EB7B7971B5EF78500DFFAE4 /* Build configuration list for PBXNativeTarget "FishyMen" */;
 			buildPhases = (
+				1EDA8C30D89EE452CB5D3987 /* Check Pods Manifest.lock */,
 				7EB7B76D1B5EF78400DFFAE4 /* Sources */,
 				7EB7B76E1B5EF78400DFFAE4 /* Frameworks */,
 				7EB7B76F1B5EF78400DFFAE4 /* Resources */,
+				170A2E3CD36F8F79E3D92793 /* Embed Pods Frameworks */,
+				6DDDFB2FA33984B8ED7E2229 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +317,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		170A2E3CD36F8F79E3D92793 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FishyMen/Pods-FishyMen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EDA8C30D89EE452CB5D3987 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDDFB2FA33984B8ED7E2229 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FishyMen/Pods-FishyMen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EB7B76D1B5EF78400DFFAE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7EB7B77A1B5EF78400DFFAE4 /* AppDelegate.m in Sources */,
+				7EB7B79F1B5EF9F500DFFAE4 /* TweetsTableViewController.m in Sources */,
 				7EB7B7771B5EF78400DFFAE4 /* main.m in Sources */,
-				7EB7B7801B5EF78400DFFAE4 /* ViewController.m in Sources */,
+				7ECA9A4A1B6012FA00D783AE /* Tweets.m in Sources */,
+				7EB7B7AC1B5EFA5A00DFFAE4 /* SavedTweetsTableViewController.m in Sources */,
+				7EB7B7B61B5F08B200DFFAE4 /* TwitterSearchManager.m in Sources */,
 				7EB7B77D1B5EF78400DFFAE4 /* FishyMen.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,8 +500,10 @@
 		};
 		7EB7B7981B5EF78500DFFAE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C9E1A995F9CD477A4584A1 /* Pods-FishyMen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FishyMen/CONSTANTS.pch;
 				INFOPLIST_FILE = FishyMen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,8 +512,10 @@
 		};
 		7EB7B7991B5EF78500DFFAE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FA8FB2973A3BF39CD82098 /* Pods-FishyMen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FishyMen/CONSTANTS.pch;
 				INFOPLIST_FILE = FishyMen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +575,7 @@
 				7EB7B7991B5EF78500DFFAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EB7B79A1B5EF78500DFFAE4 /* Build configuration list for PBXNativeTarget "FishyMenTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +584,7 @@
 				7EB7B79C1B5EF78500DFFAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

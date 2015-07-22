@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TweetsTableViewController.h
 //  FishyMen
 //
 //  Created by Gene Crucean on 7/21/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface TweetsTableViewController : UITableViewController <UIAlertViewDelegate>
+
 
 
 @end
-
